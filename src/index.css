@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .custom-rounded {
+    border-top-left-radius: 90px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 70px;
+}
+   */
+
+@layer components{
+    .align-element{
+        @apply mx-auto max-w-7xl px-8
+    }
+    .size-element{
+        @apply w-32 h-32 bg-slate-200 rounded-lg flex flex-col justify-center items-center
+    }
+}
